@@ -7,7 +7,8 @@
     "node": ">=18"
   },
   "scripts": {
-    "start": "node index.js"
+    "build": "npm install",
+    "start": "node build/index.js"
   },
   "author": "",
   "license": "ISC",
