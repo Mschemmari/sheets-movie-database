@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sexflix-418413",
+  "private_key_id": "c92bfa5fcf483c5cdecafb5175cf409525dc4185",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDoDRIn/NdBBJCR\nmyDuPvnGVx4kKNC4AZoLhWE8su/4twn1x9JH40jKfHhMeH8s9C8TDOVOeEuf81Yn\ndnEMNuyfG+OFUu2owjin8uOvn/m0nOCHvvBGVq54RC3Nx44bVS1Nqf2j5vUq6W6F\nBlK8IRUpYlSiubFB75eg2PokQPPHd9WYPBe+nYNqMeBgM2qnicGAP8epwxaUtgRc\nqOfmJ5d8EaPp5EK4LYToZEmOBdeA+xqKGvfrfMF8cyARv6Vzgm9+o8ORCUONhUzk\now772frMS/QaMQhC1xtCSmHFs0JeM4lE6vETDdjPabq62eDXWNCQ6uqykrAXjYT5\nG6eKpAzfAgMBAAECggEAEACiwWYy0/WEIL5xcWyfXfmxBu5XonDd1jCPCZgPa3f3\n9F6g1jtK0EfwJdnjb06xll87ywMJuBCYXuVQm3aIL9rFAHM9F3e5X3+lCv39wuJU\nq5fTyw38Pyf4fqnl12Wy15nC95QcUSbC6+KJPxcK9g0laAllO3ZR3xJHgcuG5Djy\nP+2P7E1wHsxZ7F7g8N8F/K4tFsKMOirkF1KShUhm8JYXIzHeAI2OwLJgwIefOL7j\nlb0Kauqy4ipBgf6dZ/WbSTSrMpuYLA0NjNON3mwJiHCXPa2DTTFoCSl9BuPq/SwU\n/ofsy18VqFFkz4oiH1TDoN3AreQ6FGAzJ3CBAqquDQKBgQD2y0oTYkw6qFcIIXCn\nMd2PHtAtvcjtoknmYAJh5zxihANEEEdspNMDbjQ6Z8TYWWQ38DXSa6G7nVZN2a1W\nevWV+4fDpc3F+FS6eZ1CiPRLlfWRp2lR6MH0FWnTZajMIOzsOHhxQRUl0lWR7GSt\nRF3Tx2xnwaLgJ/WU8OZAzI7DwwKBgQDwtP7wr0eaQPbe42C5cqwtL6pag1lZl2r/\neOq7IrGIAkdRFApCm+OfSSCKsakX1JJ6AHggmijrQb/NiCFL2e8G82hVCc2koVO2\npfuI/OLMVAo3nFePOlm8Oobg/xlH7aGSyi3UOv7JZYa95VENxERCDfubHqdA7woh\nDI+qXXeMtQKBgC5sfzq2OvCtyfFVmQNadfr+KNrx4GITLSOQ2+HexZUikBq1lTny\np1711A1Ih9bKufdr0DQM2xeXuSxbzid+acQU1K0Q+2xKEmYhiluBt7KgOtlzTHSD\n/DgV7xo8/UuoxeiJlt53B6tdrYsNlMKjIaM82D+MRT81RRUHW8jEsfZRAoGAGysC\nn13ZQhLVCmE1mJjV0B/SJXcvzYnmnMEkFU0cJpLDQ+Z0JgJ8VY0mbCETScpHYhfN\ndziPJ8Z7BJK511rYvLsaaoa5vDwtO69OTa7lVlSh9pbh1xup5zHf6WNBkjnDA9No\nCs1B1q9r3uEUHe6qGZ6EaIS0MgMI7KQDTyJPjQUCgYAXStT4RJnmnIiZFPb766fX\nrC4kcD0abuFxcWwobqZlZdLANqW7to+K1CSe6tu2hPX03cw+8rmxrcKUNBWgUyTG\nggCdk1i848Kq73dsdbzUb6Y9K8LC/43coZgJHU88iuFMn4fwGrkR1V74eVSISTq1\n/Xh/CQRNbt4CaSPa0Lae0A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "sxflx-569@sexflix-418413.iam.gserviceaccount.com",
+  "client_id": "100223025249739173740",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sxflx-569%40sexflix-418413.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
