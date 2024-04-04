@@ -13,3 +13,4 @@
 # Ignore configuration files with sensitive information
 config.ini
 
+node_modules/
