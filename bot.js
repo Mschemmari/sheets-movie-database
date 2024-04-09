@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const token = '6851281380:AAEQc2bfzqH87nagYLDN22eDN7U-tKZqXD8';
 
 // Endpoint from which to fetch categories
-const categoriesEndpoint = 'http://localhost:3000/movies';
+const categoriesEndpoint = 'https://sheets-movie-database.onrender.com/movies';
 
 // Create a bot instance
 const bot = new TelegramBot(token, { polling: true });
