@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const token = '6851281380:AAEQc2bfzqH87nagYLDN22eDN7U-tKZqXD8';
 
 // Endpoint from which to fetch categories
-const categoriesEndpoint = 'https://sheets-movie-database.onrender.com/movies';
+const categoriesEndpoint = 'http://localhost:3000/movies';
 
 // Create a bot instance
 const bot = new TelegramBot(token, { polling: true });
@@ -24,16 +24,16 @@ async function fetchCategories() {
 // Function to send categories to the user
 async function sendCategories(chatId) {
   const categories = await fetchCategories();
+  console.log(categories);
   if (categories.length > 0) {
       const keyboard = {
-          inline_keyboard: categories.map(category => ([
+          inline_keyboard: categories.map(cat => ([
             {
-              text: category.join().toString(),
-              callback_data: category.join().toString(), 
+              text: cat,
+              callback_data: cat 
           }
           ]))
       };
-      console.log(JSON.stringify(keyboard));
       bot.sendMessage(chatId, 'Choose a category:', { reply_markup: JSON.stringify(keyboard) });
   } else {
       bot.sendMessage(chatId, 'No categories available.');
