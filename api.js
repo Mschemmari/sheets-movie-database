@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { _getGoogleSheetClient, _readGoogleSheet, sheetUtils } = require('./utils') ;
+const { _getGoogleSheetClient, _readGoogleSheet } = require('./utils') ;
 
 const app = express();
 const PORT = 3000;
@@ -10,8 +10,8 @@ app.use(bodyParser.json());
 // GET all movies
 app.get('/movies', async(req, res) => {
     const googleSheetClient = await _getGoogleSheetClient();
-    const data = await _readGoogleSheet(googleSheetClient, sheetUtils.sheetId, sheetUtils.tabName, sheetUtils.range);
-    res.json(data)
+    const data = await _readGoogleSheet(googleSheetClient, 'A:E');
+    res.json(data.reduce((acc, curr) => acc.concat(curr), []))
 });
 
 // GET a single movie by ID
