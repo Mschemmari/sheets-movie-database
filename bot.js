@@ -45,3 +45,7 @@ bot.on('message', (msg) => {
   sendCategories(chatId)
 });
 
+module.exports = {
+  bot,
+  sendCategories
+};
